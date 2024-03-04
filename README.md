@@ -1,16 +1,32 @@
 # CRUD Operations with Express.js, MongoDB, and Node.js
 
 This repository contains a basic implementation of CRUD (Create, Read, Update, Delete) operations using Express.js, MongoDB, and Node.js.
+It Interacts with the "xpsystem" collection, of an let say "players" database then add this in .env file:
+```
+   PORT = 3000 
+   MONGO_URL = "mongodb+srv://___mongodb.net/players?retryWrites=true&w=majority&appName=Furverse"
+```
 
-## Tutorial
-Check out this YouTube tutorial for a step-by-step guide:
-### Click here 
+## API Specifications
+
+http://localhost:3000/api/user/create - POST a user details according to the schema
+http://localhost:3000/api/user/getallusers - GET all user details
+http://localhost:3000/api/user/update/:id - UPDATE an ID
+http://localhost:3000/api/user/delete/:id - DELETE and ID
+
+### One schema example
+
+    {
+        "_id": "65e59783169acb55930518a1",
+        "SurvivalTime": 4704.18701171875,
+        "Kills": 851,
+        "Deaths": 8,
+        "Damage": 204855,
+        "AnimalsReleased": 20,
+        "XP": 8595,
+        "Headshots": 788,
+        "ConnectionTime": "10/12/2023 6:02:53 PM",
+        "__v": 0
+    }
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=BkiB4lkRIAc?si=vPpkj8pyqbii5KSQ" target="_blank">
-  <img src="http://img.youtube.com/vi/BkiB4lkRIAc/0.jpg" alt="IMAGE ALT TEXT HERE" width="230" height="200" style="border: 100px solid black;" />
-</a>
-
-
-
-Feel free to use this code as a starting point for your own projects or to learn more about building web applications with these technologies.
