@@ -1,6 +1,6 @@
 # CRUD Operations with Express.js, MongoDB, and Node.js
 
-This repository contains a basic implementation of CRUD (Create, Read, Update, Delete) operations using Express.js, MongoDB, and Node.js.
+This repository contains a basic implementation of CRUD (Create, Read, Update, Delete) operations using Express.js, MongoDB, and Node.js.__
 It Interacts with the "xpsystem" collection, of an let say "players" database then add this in .env file:
 ```
    PORT = 3000 
@@ -9,10 +9,10 @@ It Interacts with the "xpsystem" collection, of an let say "players" database th
 
 ## API Specifications
 
-http://localhost:3000/api/user/create - POST a user details according to the schema
-http://localhost:3000/api/user/getallusers - GET all user details
-http://localhost:3000/api/user/update/:id - UPDATE an ID
-http://localhost:3000/api/user/delete/:id - DELETE and ID
+```http://localhost:3000/api/user/create``` - POST a user details according to the schema__
+```http://localhost:3000/api/user/getallusers``` - GET all user details__
+```http://localhost:3000/api/user/update/:id``` - UPDATE an ID__
+```http://localhost:3000/api/user/delete/:id``` - DELETE and ID__
 
 ### One schema example
 
