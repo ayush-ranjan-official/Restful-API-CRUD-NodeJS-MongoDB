@@ -4,7 +4,7 @@ This repository contains a basic implementation of CRUD (Create, Read, Update, D
 It Interacts with the "xpsystem" collection, of an let say "players" database then add this in .env file:
 ```
    PORT = 3000 
-   MONGO_URL = "mongodb+srv://___mongodb.net/players?retryWrites=true&w=majority&appName=Furverse"
+   MONGO_URL = "mongodb+srv://___mongodb.net/players?retryWrites=true&w=majority&appName=__"
 ```
 
 ## API Specifications
@@ -29,4 +29,6 @@ http://localhost:3000/api/user/delete/:id - DELETE and ID
         "__v": 0
     }
 
+## Made By
 
+- [@ayush-ranjan-official](https://github.com/ayush-ranjan-official)
