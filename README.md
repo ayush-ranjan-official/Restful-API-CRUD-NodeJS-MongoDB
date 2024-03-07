@@ -28,8 +28,7 @@ It Interacts with the "xpsystem" collection, of an let say "players" database th
         "ConnectionTime": "10/12/2023 6:02:53 PM",
         "__v": 0
     }
-
-    ```
+    
     Note: 
     1. _id represents wallet address of user, if not specified in schema, it will take some random unique value of objectID type.
     2. The versionKey is a property set on each document when first created by Mongoose. This keys value contains the internal revision of the document. The name of this document property is configurable. The default is __v = 0.
@@ -37,7 +36,7 @@ It Interacts with the "xpsystem" collection, of an let say "players" database th
     If this conflicts with your application you can configure as such:
 
     new Schema({..}, { versionKey: '_somethingElse' }) or versionKey: false    
-    ```
+  
 
 ## Made By
 
