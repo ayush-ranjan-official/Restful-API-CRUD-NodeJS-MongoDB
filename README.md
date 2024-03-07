@@ -9,10 +9,10 @@ It Interacts with the "xpsystem" collection, of an let say "players" database th
 
 ## API Specifications
 
-```http://localhost:3000/api/user/create``` - POST a user details according to the schema<br />
-```http://localhost:3000/api/user/getallusers``` - GET all user details<br />
-```http://localhost:3000/api/user/update/:id``` - UPDATE (PUT) an ID<br />
-```http://localhost:3000/api/user/delete/:id``` - DELETE and ID<br />
+1) ```http://localhost:3000/api/user/create``` - POST a user details according to the schema<br />
+2) ```http://localhost:3000/api/user/getallusers``` - GET all user details<br />
+3) ```http://localhost:3000/api/user/update/:id``` - UPDATE (PUT) an ID, Add __id value in Path Variables without "" (e.g ```http://localhost:3000/api/user/update/0x7b92f1157336797Ef60b6a103790e67de09)``` and add key-value pair in JSON format in the body of request only for the key you want to update.<br />
+4) ```http://localhost:3000/api/user/delete/:id``` - DELETE and ID, follow same as UPDATE with Delete request.<br />
 
 ### One schema example
 
